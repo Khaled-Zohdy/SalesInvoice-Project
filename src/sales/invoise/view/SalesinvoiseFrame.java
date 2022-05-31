@@ -69,13 +69,10 @@ public class SalesinvoiseFrame extends javax.swing.JFrame {
 
         invoiceTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+
             }
         ));
         jScrollPane1.setViewportView(invoiceTable);
@@ -99,25 +96,22 @@ public class SalesinvoiseFrame extends javax.swing.JFrame {
 
         lineTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
+
             }
         ));
         jScrollPane2.setViewportView(lineTable);
 
-        createLineButton.setText("Save");
+        createLineButton.setText("Create New Item");
         createLineButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 createLineButtonActionPerformed(evt);
             }
         });
 
-        deleteLineButton.setText("Cancel");
+        deleteLineButton.setText("Delete Item");
 
         jLabel1.setText("Invoices Table");
 

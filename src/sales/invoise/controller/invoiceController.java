@@ -64,12 +64,15 @@ public class invoiceController implements ActionListener {
             case "createInvoiceCancel":
                 createInvoiceCancel();
                 break;
+                
             case "createInvoiceOK":
                 createInvoiceOK();
                 break;
+                
             case "createLineOK":
                 createLineOK();
                 break;
+                
             case "createLineCancel":
                 createLineCancel();
                 break;    
